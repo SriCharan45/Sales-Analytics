@@ -1,2 +1,21 @@
-# Sales-Analytics
-Built an end-to-end AWS data pipeline using S3, EMR (PySpark), Athena, and QuickSight to process raw sales data into Silver and Gold Parquet layers with incremental loading and generate daily revenue dashboards.
+# AWS EMR Sales Analytics Pipeline
+
+This project implements an end-to-end data engineering pipeline using AWS and Apache Spark.
+
+## Architecture
+S3 (Raw) → EMR (PySpark) → S3 (Silver & Gold Parquet) → Athena → QuickSight
+
+## Features
+- Incremental data processing using high-water-mark bookmark
+- Silver and Gold data lake layers
+- Daily revenue aggregation
+- Querying via Athena
+- Dashboard in QuickSight
+
+## Technologies
+- AWS S3
+- AWS EMR
+- PySpark
+- Amazon Athena
+- Amazon QuickSight
+
